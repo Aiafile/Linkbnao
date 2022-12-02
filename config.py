@@ -17,8 +17,8 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN") # Bot token from @BotFather
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split(",")] if os.environ.get("ADMINS") else []
 PORT = os.environ.get("PORT", "8080")
 
-DATABASE_NAME = os.environ.get("DATABASE_NAME")
-DATABASE_URL = os.environ.get("DATABASE_URL") # mongodb uri from https://www.mongodb.com/
+DATABASE_NAME = os.environ.get("DATABASE_NAME", None)
+DATABASE_URL = os.environ.get("DATABASE_URL", None) # mongodb uri from https://www.mongodb.com/
 OWNER_ID =  int(os.environ.get("OWNER_ID")) # id of the owner
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 
@@ -32,7 +32,7 @@ WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '') # image when someone hit /st
 LINK_BYPASS = is_enabled((os.environ.get('LINK_BYPASS', "False")), False) # if true, droplink urls will be bypassed 
 BASE_SITE = os.environ.get("BASE_SITE", "makeshort.in") # your shortener site domain
 
-# For Admin use
+# For Admin usel None
 CHANNELS = is_enabled((os.environ.get('CHANNELS', "True")), True)
 CHANNEL_ID = [int(i.strip()) for i in os.environ.get("CHANNEL_ID").split(" ")] if os.environ.get("CHANNEL_ID") else []
 
