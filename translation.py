@@ -162,7 +162,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 USER_ABOUT_MESSAGE = """
 - Shortener Website: LinkBnao.com
 - Method: {method}
-- DTGLINKS.IN API: {shortener_api}
+- Linkbnao.com API: {shortener_api}
 - Mdisk API: {mdisk_api}
 - Username: @{username}
 - Header Text: 
