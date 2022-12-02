@@ -13,7 +13,7 @@ Ex: `/batch -100xxx`
 
 START_MESSAGE = '''Hello, {}
 
-I'm a MAKESHORT.IN Shortener Bot short Using your API. 
+I'm a LinkBnao.com Shortener Bot short Using your API. 
 
 Just Send me Any Post with Mdisk or Other Links. I will Convert Those Links Using Your API and Send them Back To You. I work in Channels too. 
 
@@ -25,7 +25,7 @@ Current Method Selected: **{}**
 
 
 HELP_MESSAGE = '''
-Hey! My name is {firstname}. I am a MAKESHORT.IN Shortner bot make your Work Easy and Help you to Earn more
+Hey! My name is {firstname}. I am a LinkBnao hortner bot make your Work Easy and Help you to Earn more
 
 Helpful commands:
 
@@ -160,7 +160,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Shortener Website: DTGLINKS.IN
+- Shortener Website: LinkBnao.com
 - Method: {method}
 - DTGLINKS.IN API: {shortener_api}
 - Mdisk API: {mdisk_api}
@@ -177,7 +177,7 @@ USER_ABOUT_MESSAGE = """
 
 MDISK_API_MESSAGE = """To add or update your Mdisk API, \n`/mdisk_api mdisk_api`
             
-Ex: `/mdisk_api 6LZq851sXoPHugiKQq`
+Ex: `/mdisk_api QDysd2c4Dy22TBvjVIvS`
             
 Others Mdisk Links will be automatically changed to the API of this Mdisk account
 
@@ -188,7 +188,7 @@ Current Mdisk API: `{}`"""
 SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, 
 `/shortener_api [api]`
             
-Ex: `/shortener_api 9e6082cd457037f01be6631e803c60a1bab73a73`
+Ex: `/shortener_api 985276ad39c38838638651f85ce69d52c28055ff`
 
 Current Website: {base_site}
 
